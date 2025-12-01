@@ -1,0 +1,35 @@
+CDN:- Content Delevery Network
+
+repo url in ssh:- git remote add origin git@github.com:KishanPatel58/sem3-fsd.git
+# for Text colors
+text-primary -> blue
+text-secondary -> gray
+text-success -> green
+text-danger -> red
+text-warning -> yellow
+text-info -> light blue
+text-dark -> black
+text-light -> light
+text-muted -> faded gray
+text-white -> white
+# for Background colors
+bg-primary -> blue
+bg-secondary -> gray
+bg-success -> green
+bg-danger -> red
+bg-warning -> yellow
+bg-info -> light blue
+bg-dark -> black
+bg-light -> light
+bg-transparent -> transparent
+bg-white -> white
+# for text properties
+text-lowercase -> lowercase
+text-uppercase -> uppercase
+text-capitalize -> capitalize
+text-decoration-none -> no underline
+text-decoration-underline -> underline
+text-decoration-line-through -> line through
+text-start -> align start
+text-center -> align center
+text-end -> align end

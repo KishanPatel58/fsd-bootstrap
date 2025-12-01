@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <!-- <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+            integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+            crossorigin="anonymous"></script> -->
+        <title>HTML with Bootstrap</title>
+        <style>
+            .box{
+                display: inline-block;
+                height: 80px;
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- for text color -->
+            <p class="text-primary">Hello!</p>
+            <p class="text-secondary">Hello!</p>
+            <p class="text-success">Hello!</p>
+            <p class="text-danger">Hello!</p>
+            <p class="text-warning">Hello!</p>
+            <p class="text-info">Hello!</p>
+            <p class="text-dark">Hello!</p>
+            <p class="text-light">Hello!</p>
+            <p class="text-muted">Hello!</p>
+            <p class="text-white">Hello!</p>
+        </div>
+        <div class="container">
+            <!-- for background color -->
+            <p class="bg-primary">Hello!</p>
+            <p class="bg-secondary">Hello!</p>
+            <p class="bg-success">Hello!</p>
+            <p class="bg-danger">Hello!</p>
+            <p class="bg-warning">Hello!</p>
+            <p class="bg-info">Hello!</p>
+            <p class="bg-dark">Hello!</p>
+            <p class="bg-light">Hello!</p>
+            <p class="bg-transparent">Hello!</p>
+            <p class="bg-white">Hello!</p>
+        </div>
+        <div class="container">
+            <!-- for background color -->
+            <p class="bg-primary text-lowercase">HELLO!</p>
+            <p class="bg-secondary text-uppercase">HELLO!</p>
+            <p class="bg-success text-capitalize">hello!</p>
+            <p class="bg-danger text-decoration-none">HELLO!</p>
+            <p class="bg-warning text-decoration-underline">HELLO!</p>
+            <p class="bg-info text-decoration-line-through">HELLO!</p>
+            <p class="bg-dark text-start">HELLO!</p>
+            <p class="bg-light text-center">HELLO!</p>
+            <p class="bg-transparent text-end">HELLO!</p>
+        </div>
+        <div class="container user-select-none">
+            <p class="fs-1">Hello!</p>
+            <p class="fw-bold">Hello!</p>
+            <p class="fw-bolder">Hello!</p>
+            <p class="fw-light">Hello!</p>
+            <p class="fw-lighter">Hello!</p>
+            <p class="fst-italic">Hello!</p>
+            <p class="fst-normal">Hello!</p>
+            <p class="shadow-sm">Hello!</p>
+            <p class="shadow">Hello!</p>
+            <p class="shadow-lg">Hello!</p>
+        </div>
+        <div class="container">
+            <span class="box border border-success border-5 rounded-4"></span>
+            <span
+                class="box border-top border-success border-5 rounded-4"></span>
+            <span
+                class="box border-start border-success border-5 rounded-4"></span>
+            <span
+                class="box border-bottom border-success border-5 rounded-4"></span>
+            <span
+                class="box border-end border-success border-5 rounded-4"></span>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 bg-primary text-white p-3 mb-3">
+                    Hello!
+                </div>
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 bg-danger text-white p-3 mb-3">
+                    Hello!
+                </div>
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 bg-warning text-white p-3 mb-3">
+                    Hello!
+                </div>
+                <div
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 bg-success text-white p-3 mb-3">
+                    Hello!
+                </div>
+            </div>
+        </div>
+        <h1 class="text-center text-success">Alert Property</h1>
+        <div class="container">
+            <div class="alert alert-warning alert-dismissible fade show">Hello!
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-success alert-dismissible fade show">Hello!
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-danger alert-dismissible fade show">Hello!
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-primary alert-dismissible fade show">Hello!
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-dark alert-dismissible fade show">Hello!
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-info alert-dismissible fade show">Hello!
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="alert"></button>
+            </div>
+            <h1 class="text-center text-success">Button Property</h1>
+            <div class="container">
+                <button class="btn btn-primary text-white">Click Me</button>
+                <button class="btn btn-secondary text-white">Click Me</button>
+                <button class="btn btn-link">Click Me</button>
+                <a href="https://www.youtube.com"
+                    class="btn btn-success text-white">Click Me</a>
+                <input type="button" value="input button"
+                    class="btn btn-danger text-white">
+                <input type="submit" value="submit button"
+                    class="btn btn-info text-white">
+            </div>
+            <h1 class="text-center text-success">Button Outline Property</h1>
+            <div class="container">
+                <button class="btn btn-outline-primary btn-lg">Click Me</button>
+                <button class="btn btn-outline-secondary btn-sm">Click
+                    Me</button>
+                <button class="btn btn-outline-danger btn-lg">Click Me</button>
+                <button class="btn btn-outline-warning btn-sm">Click Me</button>
+                <button class="btn btn-outline-success btn-lg">Click Me</button>
+                <button class="btn btn-outline-info btn-sm">Click Me</button>
+            </div>
+            <h1 class="text-center text-success mt-4">Button Block Property</h1>
+            <div class="container" draggable="false">
+                <button class="btn btn-outline-primary w-100 mt-4">Click
+                    Me</button>
+                <button class="btn btn-outline-secondary w-100 mt-4">Click
+                    Me</button>
+                <button class="btn btn-outline-danger w-100 mt-4">Click
+                    Me</button>
+                <button
+                    class="btn btn-outline-warning w-100 mt-4 disabled">Click
+                    Me</button>
+                <button class="btn btn-outline-success w-100 mt-4 active">Click
+                    Me</button>
+                <button class="btn btn-outline-info w-100 mt-4">Click
+                    Me</button>
+            </div>
+            <h1 class="text-center text-success mt-4">Spinners</h1>
+            <div
+                class="container d-flex align-items-center justify-content-center gap-5"
+                draggable="false">
+                <div class="spinner-border"></div>
+                <div class="spinner-border text-danger"></div>
+                <div class="spinner-border text-success"></div>
+                <div class="spinner-border text-warning"></div>
+                <div class="spinner-border text-info"></div>
+                <div class="spinner-border text-primary"></div>
+            </div>
+            <!-- <h1 class="text-center text-success mt-4">TASK For Spiner</h1>
+            <div
+                class="container d-flex justify-content-center align-items-center"
+                draggable="false">
+                <div class="spinner-border text-primary">
+                    <img src="assets/rollsroyce.jpg" alt>
+                </div>
+            </div> -->
+            <!-- <h1 class="text-center text-success mt-4">TASK For Spiner</h1>
+            <div
+                class="container d-flex justify-content-center align-items-center"
+                draggable="false">
+                <div class="spinner-grow text-primary"></div>
+            </div> -->
+            <div
+                class="container d-flex justify-content-center align-items-center mt-4">
+                <button
+                    class="btn btn-outline-success d-flex justify-content-center align-items-center gap-4">
+                    <div class="spinner-grow text-primary"></div>
+                    Loading...
+                </button>
+            </div>
+            <h1 class="text-success text-center">DropDown Menu</h1>
+            <div class="dropdown mb-5">
+                <button class="btn btn-primary dropdown-toggle" type="button"
+                    data-bs-toggle="dropdown">
+                    Select
+                </button>
+                <ul class="dropdown-menu">
+                    <strong class="dropdown-header">sem-3</strong>
+                    <li><a class="dropdown-item" href="#">HTML</a></li>
+                    <li><a class="dropdown-item" href="#">CSS</a></li>
+                    <li><a class="dropdown-item" href="#">JS</a></li>
+                    <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                    <li><a class="dropdown-item" href="#">Jquery</a></li>
+                    <li><a class="dropdown-item" href="#">Ajax</a></li>
+                    <li><a class="dropdown-item" href="#">PHP</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a class="dropdown-item" href="#">React.js</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
